@@ -1,0 +1,118 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.header-content {
+    background-color: #111;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+    a:hover {
+        color: honeydew;
+    }
+
+.title {
+    font-size: 20px;
+}
+
+.tecnologias, .mais-informacoes {
+    height: 500px;
+}
+
+.sobre, .objetivos, .video {
+    padding: 50px;
+    color: honeydew;
+}
+
+.row-content-video h2 {
+    padding: 30px;
+}
+
+.mais-informacoes, .tecnologias, .video {
+    background-color: #1e201f;
+}
+
+.row-content-objetivos {
+    align-items: center;
+}
+
+.mais-informacoes, .tecnologias, .video {
+    text-align: center;
+}
+
+.mais-informacoes, .tecnologias {
+    color: honeydew;
+}
+
+    .mais-informacoes div div, .tecnologias div div {
+        padding: 20px;
+    }
+
+.slide1, .slide2 {
+    padding-bottom: 300px;
+}
+
+.slide2 {
+    text-align: end;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.row-title-sobre h1 h3 {
+    text-align: center;
+}
+
+.row-title-sobre {
+    padding-top: 110px;
+    padding-bottom: 70px;
+}
+
+.row-mais-informacoes div img {
+    margin: 10px;
+}
+
+.row-content-footer {
+    padding: 60px;
+}
+
+.siganos, .telefone {
+    text-align: end;
+}
+
+.dev-footer {
+    background-color: #1e201f;
+    padding: 15px;
+    text-align: center;
+    color: honeydew;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #111;
+    color: honeydew;
+}
