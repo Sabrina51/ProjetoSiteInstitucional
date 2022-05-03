@@ -66,5 +66,17 @@
                 </div>
             </div>
         </section>
+        <section class="video">
+            <div class="container">
+                <div class="row row-content-video">
+                    <h2>NOVA SESSAO</h2>
+                </div>
+                <div class="row row-content-video">
+                    <div class="col-12">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </asp:Content>
