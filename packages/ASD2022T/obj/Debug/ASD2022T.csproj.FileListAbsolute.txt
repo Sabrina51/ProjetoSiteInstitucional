@@ -1,0 +1,6 @@
+C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\packages\ASD2022T\bin\Debug\ASD2022T.dll
+C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\packages\ASD2022T\bin\Debug\ASD2022T.pdb
+C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\packages\ASD2022T\obj\Debug\ASD2022T.csproj.CoreCompileInputs.cache
+C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\packages\ASD2022T\obj\Debug\ASD2022T.dll
+C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\packages\ASD2022T\obj\Debug\ASD2022T.pdb
+C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\packages\ASD2022T\bin\Debug\ASD2022T.xml

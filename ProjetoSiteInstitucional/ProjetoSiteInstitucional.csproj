@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\default.css" />
+    <Content Include="css\other.css" />
+    <Content Include="ErrorReport.aspx" />
     <Content Include="Excecoes.txt" />
     <Content Include="image\alvo.jpg" />
     <Content Include="image\ampulheta.png" />
@@ -106,6 +108,13 @@
     <Compile Include="default.Master.designer.cs">
       <DependentUpon>default.Master</DependentUpon>
     </Compile>
+    <Compile Include="ErrorReport.aspx.cs">
+      <DependentUpon>ErrorReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorReport.aspx.designer.cs">
+      <DependentUpon>ErrorReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -113,6 +122,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="other.Master.cs">
+      <DependentUpon>other.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="other.Master.designer.cs">
+      <DependentUpon>other.Master</DependentUpon>
     </Compile>
     <Compile Include="sobre.aspx.cs">
       <DependentUpon>sobre.aspx</DependentUpon>
@@ -132,6 +148,7 @@
   <ItemGroup>
     <Content Include="default.Master" />
     <None Include="packages.config" />
+    <Content Include="other.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

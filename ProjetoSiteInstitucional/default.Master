@@ -29,7 +29,8 @@
                                     <asp:HyperLink NavigateUrl="~/sobre.aspx" runat="server">Sobre</asp:HyperLink>
                                 </li>
                                 <li>
-                                    <asp:HyperLink NavigateUrl="https://drive.google.com/file/d/1WTPLqtjYLe99dVygsSf_E7EV_wc4LKT_/view" runat="server">Matriz Curricular</asp:HyperLink>
+                                    <asp:HyperLink NavigateUrl="~/ErrorReport.aspx" runat="server">Report</asp:HyperLink>
+                                    <%--<asp:HyperLink NavigateUrl="https://drive.google.com/file/d/1WTPLqtjYLe99dVygsSf_E7EV_wc4LKT_/view" runat="server">Matriz Curricular</asp:HyperLink>--%>
                                 </li>
                                 <li>
                                     <asp:HyperLink NavigateUrl="~/contato.aspx" runat="server">Contato</asp:HyperLink>
