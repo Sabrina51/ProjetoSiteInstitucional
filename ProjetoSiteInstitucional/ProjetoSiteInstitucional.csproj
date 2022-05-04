@@ -69,12 +69,8 @@
   <ItemGroup>
     <Content Include="css\default.css" />
     <Content Include="css\other.css" />
-<<<<<<< HEAD
     <Content Include="login.aspx" />
     <Content Include="report.aspx" />
-=======
-    <Content Include="ErrorReport.aspx" />
->>>>>>> 8f3d439035c7d6dbcc2bd01417dc196718d1d1ab
     <Content Include="Excecoes.txt" />
     <Content Include="image\alvo.jpg" />
     <Content Include="image\ampulheta.png" />
@@ -109,7 +105,6 @@
     <Compile Include="default.Master.designer.cs">
       <DependentUpon>default.Master</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -123,14 +118,6 @@
     </Compile>
     <Compile Include="report.aspx.designer.cs">
       <DependentUpon>report.aspx</DependentUpon>
-=======
-    <Compile Include="ErrorReport.aspx.cs">
-      <DependentUpon>ErrorReport.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ErrorReport.aspx.designer.cs">
-      <DependentUpon>ErrorReport.aspx</DependentUpon>
->>>>>>> 8f3d439035c7d6dbcc2bd01417dc196718d1d1ab
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="default.aspx.cs">
