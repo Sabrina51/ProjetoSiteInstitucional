@@ -60,6 +60,7 @@ C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstituc
 C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\bin\ASD2022T.dll
 C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\bin\ASD2022T.pdb
 C:\Users\0040482022028\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\bin\ASD2022T.xml
+<<<<<<< HEAD
 C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\bin\ProjetoSiteInstitucional.dll.config
 C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\bin\ProjetoSiteInstitucional.dll
 C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\bin\ProjetoSiteInstitucional.pdb
@@ -122,3 +123,5 @@ C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstituc
 C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\obj\Debug\ProjetoSiteInstitucional.csproj.CopyComplete
 C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\obj\Debug\ProjetoSiteInstitucional.dll
 C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\obj\Debug\ProjetoSiteInstitucional.pdb
+=======
+>>>>>>> 8f3d439035c7d6dbcc2bd01417dc196718d1d1ab
