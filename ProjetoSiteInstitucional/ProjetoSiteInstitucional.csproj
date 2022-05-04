@@ -68,20 +68,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\default.css" />
+    <Content Include="css\other.css" />
+    <Content Include="login.aspx" />
+    <Content Include="report.aspx" />
+    <Content Include="Excecoes.txt" />
     <Content Include="image\alvo.jpg" />
     <Content Include="image\ampulheta.png" />
     <Content Include="image\c-sharp.png" />
     <Content Include="image\c.png" />
-    <Content Include="image\call.jpg" />
     <Content Include="image\code.jpg" />
     <Content Include="image\cronometro.png" />
     <Content Include="image\css-3.png" />
-    <Content Include="image\data.jpg" />
-    <Content Include="image\exame.jpg" />
     <Content Include="image\facebook.png" />
     <Content Include="image\html-5.png" />
     <Content Include="image\instagram.png" />
-    <Content Include="image\iot.jpg" />
     <Content Include="image\java.png" />
     <Content Include="image\linkedin.png" />
     <Content Include="image\livros1.jpg" />
@@ -95,6 +95,7 @@
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
     <Content Include="sobre.aspx" />
+    <Content Include="contato.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="default.Master.cs">
@@ -104,6 +105,20 @@
     <Compile Include="default.Master.designer.cs">
       <DependentUpon>default.Master</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -112,6 +127,13 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="other.Master.cs">
+      <DependentUpon>other.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="other.Master.designer.cs">
+      <DependentUpon>other.Master</DependentUpon>
+    </Compile>
     <Compile Include="sobre.aspx.cs">
       <DependentUpon>sobre.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,10 +141,18 @@
     <Compile Include="sobre.aspx.designer.cs">
       <DependentUpon>sobre.aspx</DependentUpon>
     </Compile>
+    <Compile Include="contato.aspx.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contato.aspx.designer.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.Master" />
     <None Include="packages.config" />
+    <Content Include="other.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -130,7 +160,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\packages\ASD2022T\ASD2022T.csproj">
+      <Project>{a37dfd63-9a61-4809-9fbb-6ab7c1265040}</Project>
+      <Name>ASD2022T</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

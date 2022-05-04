@@ -21,24 +21,25 @@
                 <div class="header-content fixed-top">
                     <nav>
                         <div class="navbar container">
-                            <p class="title">
+                            <span class="title">
                                 <asp:HyperLink NavigateUrl="~/default.aspx" runat="server">FATEC Americana</asp:HyperLink>
-                            </p>
+                            </span>
                             <ul>
                                 <li>
                                     <asp:HyperLink NavigateUrl="~/sobre.aspx" runat="server">Sobre</asp:HyperLink>
                                 </li>
                                 <li>
-                                    <asp:HyperLink NavigateUrl="https://drive.google.com/file/d/1WTPLqtjYLe99dVygsSf_E7EV_wc4LKT_/view" runat="server">Matriz Curricular</asp:HyperLink>
+                                    <asp:HyperLink NavigateUrl="~/contato.aspx" runat="server">Contato</asp:HyperLink>
+                                    <%--<asp:HyperLink NavigateUrl="https://drive.google.com/file/d/1WTPLqtjYLe99dVygsSf_E7EV_wc4LKT_/view" runat="server">Matriz Curricular</asp:HyperLink>--%>
                                 </li>
                                 <li>
-                                    <asp:HyperLink NavigateUrl="#" runat="server">Contato</asp:HyperLink>
+                                    <asp:HyperLink NavigateUrl="~/report.aspx" runat="server">Report</asp:HyperLink>
                                 </li>
                                 <li>
                                     <asp:HyperLink NavigateUrl="#" runat="server"> | </asp:HyperLink>
                                 </li>
                                 <li>
-                                    <asp:HyperLink NavigateUrl="#" runat="server">
+                                    <asp:HyperLink NavigateUrl="~/login.aspx" runat="server">
                                         <asp:Image ImageUrl="~/image/profile.png" runat="server" />
                                     </asp:HyperLink>
                                 </li>
@@ -63,8 +64,8 @@
                         </div>
                         <div class="col-3 telefone">
                             <h3>Contato</h3>
-                            <span>+55 19 3406 5776</span><br/>
-                            <span>+55 19 3407 1518</span><br/>
+                            <span>+55 19 3406 5776</span><br />
+                            <span>+55 19 3407 1518</span><br />
                             <span>+55 19 3406 3297</span>
                         </div>
                         <div class="col-3 siganos">

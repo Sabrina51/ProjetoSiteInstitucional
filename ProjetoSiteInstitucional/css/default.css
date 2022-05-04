@@ -40,16 +40,16 @@ a {
     height: 500px;
 }
 
-.sobre, .objetivos, .video {
+.sobre, .objetivos, .video, .contato {
     padding: 50px;
     color: honeydew;
 }
 
-.row-content-video h2 {
+.row-content-video h2, .row-content-contato h2 {
     padding: 30px;
 }
 
-.mais-informacoes, .tecnologias, .video {
+.mais-informacoes, .tecnologias, .video, .contato {
     background-color: #1e201f;
 }
 
@@ -57,7 +57,7 @@ a {
     align-items: center;
 }
 
-.mais-informacoes, .tecnologias, .video {
+.mais-informacoes, .tecnologias, .video, .contato {
     text-align: center;
 }
 
@@ -75,7 +75,6 @@ a {
 
 .slide2 {
     text-align: end;
-
 }
 
 section {
@@ -87,7 +86,7 @@ section {
     text-align: center;
 }
 
-.row-title-sobre {
+.row-title-sobre, .row-content-contato {
     padding-top: 110px;
     padding-bottom: 70px;
 }
@@ -97,7 +96,7 @@ section {
 }
 
 .row-content-footer {
-    padding: 60px;
+    padding: 60px 0 60px 0;
 }
 
 .siganos, .telefone {
