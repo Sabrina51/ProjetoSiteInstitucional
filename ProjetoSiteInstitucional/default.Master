@@ -29,19 +29,11 @@
                                     <asp:HyperLink NavigateUrl="~/sobre.aspx" runat="server">Sobre</asp:HyperLink>
                                 </li>
                                 <li>
-<<<<<<< HEAD
                                     <asp:HyperLink NavigateUrl="~/contato.aspx" runat="server">Contato</asp:HyperLink>
                                     <%--<asp:HyperLink NavigateUrl="https://drive.google.com/file/d/1WTPLqtjYLe99dVygsSf_E7EV_wc4LKT_/view" runat="server">Matriz Curricular</asp:HyperLink>--%>
                                 </li>
                                 <li>
                                     <asp:HyperLink NavigateUrl="~/report.aspx" runat="server">Report</asp:HyperLink>
-=======
-                                    <asp:HyperLink NavigateUrl="~/ErrorReport.aspx" runat="server">Report</asp:HyperLink>
-                                    <%--<asp:HyperLink NavigateUrl="https://drive.google.com/file/d/1WTPLqtjYLe99dVygsSf_E7EV_wc4LKT_/view" runat="server">Matriz Curricular</asp:HyperLink>--%>
-                                </li>
-                                <li>
-                                    <asp:HyperLink NavigateUrl="~/contato.aspx" runat="server">Contato</asp:HyperLink>
->>>>>>> 8f3d439035c7d6dbcc2bd01417dc196718d1d1ab
                                 </li>
                                 <li>
                                     <asp:HyperLink NavigateUrl="#" runat="server"> | </asp:HyperLink>

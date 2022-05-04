@@ -13,7 +13,6 @@ Mensagem: Falha na transação. A resposta do servidor foi: Please use smtp auth
 Data: 03/05/2022 16:09:01
 Mensagem: Falha na transação. A resposta do servidor foi: Please use smtp authentication for port (587) 201.74.221.250
 --------------------------
-<<<<<<< HEAD
 Data: 03/05/2022 20:54:42
 Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
 --------------------------
@@ -29,5 +28,3 @@ Mensagem: Transaction failed. The server response was: Please use smtp authentic
 Data: 03/05/2022 21:51:23
 Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
 --------------------------
-=======
->>>>>>> 8f3d439035c7d6dbcc2bd01417dc196718d1d1ab
