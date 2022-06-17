@@ -28,3 +28,27 @@ Mensagem: Transaction failed. The server response was: Please use smtp authentic
 Data: 03/05/2022 21:51:23
 Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
 --------------------------
+Data: 06/06/2022 20:28:45
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------
+Data: 06/06/2022 22:21:38
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------
+Data: 06/06/2022 22:33:42
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------
+Data: 06/06/2022 22:35:13
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------
+Data: 06/06/2022 23:45:43
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------
+Data: 07/06/2022 00:04:21
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------
+Data: 07/06/2022 00:05:48
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------
+Data: 07/06/2022 00:06:34
+Mensagem: Transaction failed. The server response was: Please use smtp authentication for port (587) 187.183.41.96
+--------------------------

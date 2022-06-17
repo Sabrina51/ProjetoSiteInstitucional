@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using ASD2022T;
 
 // RELACIONADO A E-MAIL
 using System.Net.Mail;
-using ASD2022T;
-
-
 
 
 namespace ProjetoSiteInstitucional
@@ -45,12 +38,18 @@ namespace ProjetoSiteInstitucional
                 else
                 {
                     // 2. CRIA O PACOTE DO EMAIL
-                    // Criar uma instancia da classe MailMessage 
+                    // Criar uma instancia da classe MailMessage
+                    //cria uma mensagem
                     MailMessage mail = new MailMessage();
-                    mail.To.Add("contato@seudominio.com");
-                    mail.Subject = "Email enviado pelo form de contato";
-                    MailAddress from = new MailAddress("contato@seudominio.com");
+
+
+                    //define os endereços
+                    MailAddress from = new MailAddress("sabrina.silva51@fatec.sp.gov.br");
                     mail.From = from;
+                    mail.To.Add("sabrina.silva51@fatec.sp.gov.br");
+
+                    //define o conteúdo
+                    mail.Subject = "Email enviado pelo form de contato";
                     mail.Body = "Mensagem: " + mensagem + "\n";
                     mail.Body += "Nome: " + nome + "\n";
                     mail.Body += "E-mail: " + email + "\n";
@@ -59,9 +58,9 @@ namespace ProjetoSiteInstitucional
                     // 3. ENVIA O EMAIL
                     // Criar uma instalcia da classe SmtpClient
                     SmtpClient smtp = new SmtpClient();
-                    smtp.Host = "smtp.seudominio.com";
+                    smtp.Host = "smtp.live.com";
                     smtp.Port = 587;
-                    smtp.Credentials = new System.Net.NetworkCredential("contato@seudominio.com", "suasenha");
+                    smtp.Credentials = new System.Net.NetworkCredential("sabrina.silva51@fatec.sp.gov.br", "Pad#121963");
                     smtp.Send(mail);
 
                     // limpa a memória
@@ -72,9 +71,8 @@ namespace ProjetoSiteInstitucional
             catch (Exception ex)
             {
                 Msg.Text = "Houve uma falha ao enviar o e-mail" + ex.Message;
-
-                TratamentEexcecao exx = new TratamentEexcecao();
-
+                TratamentoExcecao exx = new TratamentoExcecao();
+                exx.FileName = "Log.txt";
                 exx.SaveException(ex);
 
                 //string caminhoFisico = System.Web.HttpContext.Current.Server.MapPath("~/Excecoes.txt");
