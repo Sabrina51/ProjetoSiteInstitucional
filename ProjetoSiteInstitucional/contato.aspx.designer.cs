@@ -15,7 +15,6 @@ namespace ProjetoSiteInstitucional
     {
 
         /// <summary>
-
         /// Msg control.
         /// </summary>
         /// <remarks>

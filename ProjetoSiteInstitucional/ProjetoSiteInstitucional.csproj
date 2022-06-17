@@ -43,7 +43,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AppDatabase">
+      <HintPath>..\..\..\..\Downloads\LIB\LIB\Source\AppDatabase 4.0\AppDatabase\bin\Debug\AppDatabase.dll</HintPath>
+    </Reference>
+    <Reference Include="AppUtilities">
+      <HintPath>..\..\..\..\Downloads\LIB\LIB\Source\AppUtilities 4.0\bin\Debug\AppUtilities.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Log" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -53,6 +63,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -67,8 +78,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.accdb" />
     <Content Include="css\default.css" />
     <Content Include="css\other.css" />
+    <Content Include="Log.txt" />
     <Content Include="login.aspx" />
     <Content Include="report.aspx" />
     <Content Include="Excecoes.txt" />
@@ -165,6 +178,9 @@
       <Project>{a37dfd63-9a61-4809-9fbb-6ab7c1265040}</Project>
       <Name>ASD2022T</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -44,21 +44,31 @@
             <div class="row row-content-tecnologias">
                 <div class="col-3">
                     <h3>
-                        <img src="Image/html-5.png" />
-                        <img src="Image/css-3.png" />
+                        <asp:HyperLink NavigateUrl="https://www.w3schools.com/html/" runat="server">
+                            <asp:Image ImageUrl="~/Image/html-5.png" runat="server" />
+                        </asp:HyperLink>
+                        <asp:HyperLink NavigateUrl="https://www.w3schools.com/css/default.asp" runat="server">
+                            <asp:Image ImageUrl="~/Image/css-3.png" runat="server" />
+                        </asp:HyperLink>
                     </h3>
                     <p>Desenvolvimento Web com HTML5 e CSS3</p>
                 </div>
                 <div class="col-3">
-                    <h3> <img src="Image/c-sharp.png" /></h3>
+                    <asp:HyperLink NavigateUrl="https://docs.microsoft.com/en-us/dotnet/csharp/" runat="server">
+                        <asp:Image ImageUrl="~/Image/c-sharp.png" runat="server" />
+                    </asp:HyperLink>
                     <p>Programação em C#</p>
                 </div>
                 <div class="col-3">
-                    <h3><img src="Image/c.png" /></h3>
+                    <asp:HyperLink NavigateUrl="https://webstore.ansi.org/Standards/INCITS/INCITSISOIEC98992012" runat="server">
+                        <asp:Image ImageUrl="~/Image/c.png" runat="server" />
+                    </asp:HyperLink>
                     <p>Programação em C</p>
                 </div>
                 <div class="col-3">
-                    <h3><img src="Image/java.png" /></h3>
+                    <asp:HyperLink NavigateUrl="https://www.oracle.com/br/java/" runat="server">
+                        <asp:Image ImageUrl="~/Image/java.png" runat="server" />
+                    </asp:HyperLink>
                     <p>Programação em Java e noções de POO</p>
                 </div>
             </div>
@@ -74,7 +84,7 @@
                     <div class="row row-content-objetivos">
                         <h3>Gerais</h3>
                         <p>
-                           Formar profissionais que projetem, implementem e coordenem infraestruturas de tecnologia da informação, atendendo a necessidade de mudanças provocadas pelas inovações tecnológicas nas empresas.
+                            Formar profissionais que projetem, implementem e coordenem infraestruturas de tecnologia da informação, atendendo a necessidade de mudanças provocadas pelas inovações tecnológicas nas empresas.
                         </p>
                     </div>
                     <div class="row">

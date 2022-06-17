@@ -1,0 +1,7 @@
+Data: 12/06/2022 18:17:23
+Mensagem: Failure sending mail.
+System.Net.Mail.SmtpException
+Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at ProjetoSiteInstitucional.WebForm3.Enviar_Click(Object sender, EventArgs e) in C:\Users\Sabrina Silva\source\repos\ProjetoSiteInstitucional\ProjetoSiteInstitucional\contato.aspx.cs:line 64
+----------------------------

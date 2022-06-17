@@ -7,6 +7,10 @@
     font-family: 'Red Hat Mono', monospace;
 }
 
+body {
+    background-color: #1e201f;
+}
+
 .header-content {
     background-color: #111;
     padding: 15px;
@@ -41,29 +45,38 @@ section {
     width: 100vw;
 }
 
-.contato {
-    background-color: #1e201f;
-    color: honeydew;
+.contato, .login {
     display: flex;
+    color: honeydew;
+    /*align-items: center;*/
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+
+.titulo-contato, .titulo-login {
+    padding-bottom: 25px;
+}
+
+.report {
+    color: honeydew;
 }
 
 .contato-title {
     text-align: center;
+    align-items: center;
 }
 
-.contato-fields {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.conteudo-contato, .conteudo-login {
+    border: solid 0.5px rgb(0 0 0 / 25%);
+    padding: 20px;
+    align-items: stretch;
+    background: #111;
 }
 
-.contato-content {
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-    width: 30vw;
+.mensagem, .nome, .email, .nome-acesso, .senha {
+    background: none;
+    color: honeydew;
+    border: solid 0.5px;
 }
 
 .row-content-footer {

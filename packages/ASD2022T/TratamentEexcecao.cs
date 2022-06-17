@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Web;
 
 namespace ASD2022T
 {
@@ -11,22 +13,37 @@ namespace ASD2022T
     /// TRATAMENTO DE ERRO
     /// </summary>
     /// 
-    public class TratamentEexcecao
+    public class TratamentoExcecao
     {
 
-        private string caminhoFisico = System.Web.HttpContext.Current.Server.MapPath("~/Excecoes.txt");
+        //private string caminhoFisico = System.Web.HttpContext.Current.Server.MapPath("~/Excecoes.txt");
+        private string m_fileName = "~/Excecoes.txt";
 
-        /// <summary>
-        /// SALVA A EXCECAO EM UM DOCUMENTO TXT
-        /// </summary>
-        /// <param name="ex"></param>
-        public void SaveException(Exception ex)
+        #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+        public string FileName
         {
-            string conteudo = "Data: " + DateTime.Now.ToString() + "\n";
+            get
+            {
+                return m_fileName;
+            }
+            set
+            {
+                m_fileName = value;
+            }
+        }
 
-            conteudo += "Mensagem: " + ex.Message + "\n";
-            conteudo += "--------------------------\n";
-            System.IO.File.AppendAllText(caminhoFisico, conteudo);
+        #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+        public void SaveException(Exception ex)
+        #pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
+        {
+            string path = HttpContext.Current.Server.MapPath(m_fileName);
+            string str = "Data: " + DateTime.Now.ToString() + "\n";
+            str = str + "Mensagem: " + ex.Message + "\n";
+            str = str + ex.GetType().ToString() + "\n";
+            str = str + ex.Message + "\n";
+            str = str + ex.StackTrace + "\n";
+            str += "----------------------------\n";
+            File.AppendAllText(path, str);
         }
 
         /// <summary>
@@ -36,7 +53,13 @@ namespace ASD2022T
         public string LoadException()
         {
 
-            return System.IO.File.ReadAllText(caminhoFisico);
+            string path = HttpContext.Current.Server.MapPath(m_fileName);
+            if (File.Exists(path))
+            {
+                return File.ReadAllText(path);
+            }
+
+            return "";
         }
 
         /// <summary>
@@ -44,8 +67,11 @@ namespace ASD2022T
         /// </summary>
         public void DeleteException()
         {
-
-            System.IO.File.Delete(caminhoFisico);
+            string path = HttpContext.Current.Server.MapPath(m_fileName);
+            if (File.Exists(path))
+            {
+                File.WriteAllText(path, "");
+            }
         }
     }
 }
